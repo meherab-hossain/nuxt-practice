@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <div>
+    <div class="text-gray-400">
       <div>
         <nav>
           <div>
             <h1>
-              <a href="/">Food Mania</a>
+              <a href="/" class="font-bold uppercase">Food Mania</a>
             </h1>
           </div>
-          <ul>
+          <ul class="text-gray-700 font-bold">
             <li>
               <a href="#">
                 <span>Home</span>
@@ -35,12 +35,12 @@
         </div>
 
         <header>
-          <h2>Recipes</h2>
-          <h3>For Food Mania</h3>
+          <h2  class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h3 class="text-2xl font-semibold">For Food Mania</h3>
         </header>
 
         <div>
-          <h4>Latest Recipes</h4>
+          <h4 class="font-bold">Latest Recipes</h4>
 
           <div>
             <!-- cards go here -->
@@ -57,7 +57,7 @@
             </div>
           </div>
 
-          <h4>Most Popular</h4>
+          <h4 class="font-bold">Most Popular</h4>
 
           <div>
             <!-- cards go here -->
