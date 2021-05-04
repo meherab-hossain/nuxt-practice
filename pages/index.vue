@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
-    <div class="text-gray-400">
+  <div class="text-gray-400 font-body">
+    <div>
       <div>
         <nav>
           <div>
             <h1>
-              <a href="/" class="font-bold uppercase">Food Mania</a>
+              <a href="/" class="font-bold uppercase p-4 border-b">Food Mania</a>
             </h1>
           </div>
           <ul class="text-gray-700 font-bold">
@@ -28,10 +28,10 @@
         </nav>
       </div>
 
-      <main>
+      <main class="px-16 py-6">
         <div>
-          <a href="#">Log in</a>
-          <a href="#">Sign up</a>
+          <a href="#" class="text-primary">Log in</a>
+          <a href="#" class="text-primary">Sign up</a>
         </div>
 
         <header>
@@ -40,7 +40,7 @@
         </header>
 
         <div>
-          <h4 class="font-bold">Latest Recipes</h4>
+          <h4 class="font-bold pb-2 mt-12 border-b">Latest Recipes</h4>
 
           <div>
             <!-- cards go here -->
@@ -57,15 +57,15 @@
             </div>
           </div>
 
-          <h4 class="font-bold">Most Popular</h4>
+          <h4 class="font-bold pb-2 mt-12 border-b">Most Popular</h4>
 
-          <div>
+          <div class="mt-8">
             <!-- cards go here -->
           </div>
         </div>
 
-        <div>
-          <div>Load more</div>
+        <div class="flex">
+          <div class="bg-secondary-100 text-secondary-200 ">Load more</div>
         </div>
       </main>
     </div>
