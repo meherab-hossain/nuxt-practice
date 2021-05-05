@@ -1,9 +1,9 @@
 <template>
   <div class="text-gray-400 font-body">
     <div class="grid md:grid-cols-3">
-      <div class="md:col-span-1">
-        <nav>
-          <div>
+      <div class="md:col-span-1 md:flex md:justify-end">
+        <nav class="text-right">
+          <div class="flex justify-between">
             <h1>
               <a
                 href="/"
@@ -11,14 +11,33 @@
                 >Food Mania</a
               >
             </h1>
+            <div class="px-4 cursor-pointer md:hidden" >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </div>
           </div>
-          <ul class="text-gray-700 font-bold">
-            <li>
-              <a href="#">
+          <ul class="text-gray-700 font-bold text-sm mt-6 hidden md:block">
+            <li class="py-1">
+              <a
+                href="#"
+                class="px-4 flex justify-end border-r-4 border-primary"
+              >
                 <span>Home</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  class="h-6 w-6 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -32,12 +51,12 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="#">
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>About</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  class="h-6 w-6 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -51,12 +70,12 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="#">
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>Contact</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  class="h-6 w-6 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -76,10 +95,14 @@
 
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+          <a
+            href="#"
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
             >Log in</a
           >
-          <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
+          <a
+            href="#"
+            class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
             >Sign up</a
           >
         </div>
@@ -197,7 +220,11 @@
         </div>
 
         <div class="flex justify-center">
-          <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load more</div>
+          <div
+            class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner"
+          >
+            Load more
+          </div>
         </div>
       </main>
     </div>
@@ -205,7 +232,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style>
