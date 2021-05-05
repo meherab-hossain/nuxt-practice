@@ -1,11 +1,11 @@
 <template>
   <div class="text-gray-400 font-body">
-    <div>
-      <div>
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1>
-              <a href="/" class="font-bold uppercase p-4 border-b"
+              <a href="/" class="font-bold uppercase p-4 border-b border-gray-100"
                 >Food Mania</a
               >
             </h1>
@@ -30,10 +30,10 @@
         </nav>
       </div>
 
-      <main class="px-16 py-6 bg-gray-100">
+      <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="text-primary">Log in</a>
-          <a href="#" class="text-primary">Sign up</a>
+          <a href="#" class="btn text-primary border-primary md:border-2">Log in</a>
+          <a href="#" class="btn text-primary ml-2 border-primary md:border-2">Sign up</a>
         </div>
 
         <header>
@@ -44,8 +44,46 @@
         <div>
           <h4 class="font-bold pb-2 mt-12 border-b">Latest Recipes</h4>
 
-          <div>
+          <div class="mt-8 grid md:grid-cols-3 gap-10">
             <!-- cards go here -->
+            <div class="card">
+              <img
+                src="~/assets/classic-beef.jpg"
+                class="w-full object-cover h-32 sm:h-48"
+                alt="stew"
+              />
+              <div class="m-4">
+                <span class="font-bold">Beef chini Stew </span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by keka ferdousi</span
+                >
+              </div>
+              <div>
+                <span
+                  class="badge"
+                  >25 mins</span
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="~/assets/classic-beef.jpg"
+                class="w-full object-cover h-32 sm:h-48"
+                alt="stew"
+              />
+              <div class="m-4">
+                <span class="font-bold">Beef chini Stew </span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by keka ferdousi</span
+                >
+              </div>
+              <div>
+                <span
+                  class="badge"
+                  >25 mins</span
+                >
+              </div>
+            </div>
             <div class="card">
               <img
                 src="~/assets/classic-beef.jpg"
@@ -75,7 +113,7 @@
         </div>
 
         <div class="flex justify-center">
-          <div class="bg-secondary-100 text-secondary-200">Load more</div>
+          <div class="btn bg-secondary-100 text-secondary-200">Load more</div>
         </div>
       </main>
     </div>
