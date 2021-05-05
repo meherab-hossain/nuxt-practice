@@ -5,7 +5,9 @@
         <nav>
           <div>
             <h1>
-              <a href="/" class="font-bold uppercase p-4 border-b">Food Mania</a>
+              <a href="/" class="font-bold uppercase p-4 border-b"
+                >Food Mania</a
+              >
             </h1>
           </div>
           <ul class="text-gray-700 font-bold">
@@ -28,14 +30,14 @@
         </nav>
       </div>
 
-      <main class="px-16 py-6">
-        <div class="flex justify-center  md:justify-end">
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-center md:justify-end">
           <a href="#" class="text-primary">Log in</a>
           <a href="#" class="text-primary">Sign up</a>
         </div>
 
         <header>
-          <h2  class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
           <h3 class="text-2xl font-semibold">For Food Mania</h3>
         </header>
 
@@ -44,15 +46,23 @@
 
           <div>
             <!-- cards go here -->
-            <div>
+            <div class="card">
               <img
                 src="~/assets/classic-beef.jpg"
-                class="sm:w-48 h-28"
+                class="w-full object-cover h-32 sm:h-48"
                 alt="stew"
               />
+              <div class="m-4">
+                <span class="font-bold">Beef chini Stew </span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by keka ferdousi</span
+                >
+              </div>
               <div>
-                <span>Beef chini Stew </span>
-                <span>Recipe by keka ferdousi</span>
+                <span
+                  class="badge"
+                  >25 mins</span
+                >
               </div>
             </div>
           </div>
