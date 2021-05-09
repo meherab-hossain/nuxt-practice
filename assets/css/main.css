@@ -11,6 +11,6 @@
 }
 
 .menu-bar{
-    @apply ml-4 text-white hover:text-yellow-200
+    @apply ml-4 text-white hover:text-yellow-200 cursor-pointer
 }
 
