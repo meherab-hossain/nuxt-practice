@@ -23,8 +23,10 @@
         <p class="text-xl text-white mt-20">Hi There,<br/> I'm <strong class="text-yellow-400">Meherab Hossain</strong><br/> <strong class="text-green-400">Junior Front End Developer</strong><br/>
           Programmer | Web Developer | Engineer  <br/>
           I am a <strong class="text-green-300">self-motivated</strong> learner love to dive <br/> into different areas of my
-          interest and do experiment with it.
-        </p class="text-xl">
+          interest and do experiment with it.<br/>
+          <Span class="btn bg-gray-600 text-white"><a href="https://www.facebook.com/meherab.hossain.79/" target="_blank">Hire Me</a></Span>
+          <Span class="btn bg-gray-600 text-white"><a href="https://www.facebook.com/meherab.hossain.79/" target="_blank">More About Me</a></Span>
+        </p>
         <div class="mt-14">
             <img
           src="~/assets/meherab.png"
