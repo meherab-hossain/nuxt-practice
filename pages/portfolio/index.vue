@@ -46,7 +46,7 @@
                   <p>It's a vue js based forum where questions can be asked.</p>
               </div>
               <div class="p-4">
-                <p class="btn bg-gray-500 text-center"><a href="#">Github Link</a> </p>
+                <p class="btn bg-gray-500 text-center"><a href="https://github.com/meherab-hossain/real-time-spa-forum-frontend" target="_blank">Github Link</a> </p>
               </div>
             </div>
             <!-- card ends here-->
@@ -59,11 +59,11 @@
               />
               <div class="font-body text-white ml-4 mt-4 tracking-wider">
                   <h5 class="text-green-500">Real Time Single Page Forum</h5>
-                  <h4 class="text-yellow-400">(Front-End)</h4>
+                  <h4 class="text-yellow-400">(Back-End)</h4>
                   <p>It's a vue js based forum where questions can be asked.</p>
               </div>
               <div class="p-4">
-                <p class="btn bg-gray-500 text-center"><a href="#">Github Link</a> </p>
+                <p class="btn bg-gray-500 text-center"><a href="https://github.com/meherab-hossain/real-time-spa-forum" target="_blank">Github Link</a> </p>
               </div>
             </div>
             <!-- card ends here-->
@@ -75,12 +75,12 @@
                 alt="stew"
               />
               <div class="font-body text-white ml-4 mt-4 tracking-wider">
-                  <h5 class="text-green-500">Real Time Single Page Forum</h5>
+                  <h5 class="text-green-500">React E-Bazar</h5>
                   <h4 class="text-yellow-400">(Front-End)</h4>
-                  <p>It's a vue js based forum where questions can be asked.</p>
+                  <p>It's a React js based e-bazar where anyone can do shopping</p>
               </div>
               <div class="p-4">
-                <p class="btn bg-gray-500 text-center"><a href="#">Github Link</a> </p>
+                <p class="btn bg-gray-500 text-center"><a href="https://github.com/meherab-hossain/react-e-bazar" target="_blank">Github Link</a> </p>
               </div>
             </div>
             <!-- card ends here-->
