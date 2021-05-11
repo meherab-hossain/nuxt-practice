@@ -37,7 +37,7 @@
 
       <div>
         <p
-          class="ml-24 grid grid-cols-1  text-center rounded-full object-cover object-center overflow-hidden p-2 bg-red-600 sm:mt-8 md:mt-36 lg:mr-80"
+          class="ml-24 grid grid-cols-1 text-center rounded-full object-cover object-center overflow-hidden p-2 bg-red-600 sm:mt-8 md:mt-36 lg:mr-80"
         >
           <a href="https://github.com/meherab-hossain/" target="_blank"
             >hire me</a
