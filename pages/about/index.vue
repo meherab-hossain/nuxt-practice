@@ -5,8 +5,8 @@
     >
       skills
     </h4>
-    <div class="grid grid-cols-2 gap-4">
-      <div class="grid ml-36 grid-cols-2 mt-16">
+    <div class="md:grid grid-cols-2 gap-4">
+      <div class="grid ml-28 grid-cols-2 mt-16">
         <p class="text-2xl text-indigo-400">Web Skills:</p>
         <ul class="uppercase text-green-500">
           <li>
@@ -37,7 +37,7 @@
 
       <div>
         <p
-          class="ml-24 grid grid-cols-1 mr-96 text-center rounded-full p-2 bg-red-600 mt-40"
+          class="ml-24 grid grid-cols-1  text-center rounded-full object-cover object-center overflow-hidden p-2 bg-red-600 sm:mt-8 md:mt-36 lg:mr-80"
         >
           <a href="https://github.com/meherab-hossain/" target="_blank"
             >hire me</a
