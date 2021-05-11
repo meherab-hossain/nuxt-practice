@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-800 font-body">
-    <div class="">
+    <div>
       <div class="flex justify-between shadow-md p-4 bg-gray-900">
         <div class="flex justify-evenly">
           <ul>
@@ -8,7 +8,7 @@
             <li class="inline-flex menu-bar">
               <a href="#projects">Project</a>
             </li>
-            <li class="inline-flex menu-bar"><a>About Me</a></li>
+            <li class="inline-flex menu-bar"><router-link to="/about">About Me</router-link></li>
             <li class="inline-flex menu-bar"><a>Contact</a></li>
             <li class="inline-flex menu-bar"><a>Resume</a></li>
           </ul>
