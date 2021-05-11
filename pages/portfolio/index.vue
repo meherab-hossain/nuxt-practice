@@ -20,97 +20,137 @@
         </div>
       </div>
       <div class="md:flex ml-4">
-        <p class="text-xl text-white mt-20">Hi There,<br/> I'm <strong class="text-yellow-400">Meherab Hossain</strong><br/> <strong class="text-green-400">Junior Front End Developer</strong><br/>
-          Programmer | Web Developer | Engineer  <br/>
-          I am a <strong class="text-green-300">self-motivated</strong> learner love to dive <br/> into different areas of my
-          interest and do experiment with it.<br/>
-          <Span class="btn bg-gray-600 text-white"><a href="https://www.facebook.com/meherab.hossain.79/" target="_blank">Hire Me</a></Span>
-          <Span class="btn bg-gray-600 text-white"><a href="https://www.facebook.com/meherab.hossain.79/" target="_blank">More About Me</a></Span>
+        <p class="text-xl text-white mt-20">
+          Hi There,<br />
+          I'm <strong class="text-yellow-400">Meherab Hossain</strong><br />
+          <strong class="text-green-400">Junior Front End Developer</strong
+          ><br />
+          Programmer | Web Developer | Engineer <br />
+          I am a <strong class="text-green-300">self-motivated</strong> learner
+          love to dive <br />
+          into different areas of my interest and do experiment with it.<br />
+          <Span class="btn bg-gray-600 text-white"
+            ><a
+              href="https://www.facebook.com/meherab.hossain.79/"
+              target="_blank"
+              >Hire Me</a
+            ></Span
+          >
+          <Span class="btn bg-gray-600 text-white"
+            ><a
+              href="https://www.facebook.com/meherab.hossain.79/"
+              target="_blank"
+              >More About Me</a
+            ></Span
+          >
         </p>
         <div class="mt-14">
-            <img
-          src="~/assets/meherab.png"
-          class="border object-fill h-64 w-64  rounded-full ml-4 border-gray-100 shadow-sm"
-          alt="stew"
-        />
+          <img
+            src="~/assets/meherab.png"
+            class="border object-fill h-64 w-64 rounded-full ml-4 border-gray-100 shadow-sm"
+            alt="meherab"
+          />
         </div>
       </div>
       <section id="projects" class="ml-4 mr-4">
         <h4 class="font-bold pb-2 mt-12 border-yellow-600 border-b text-white">
           Recent Projects
         </h4>
-        <div class="mt-8 grid md:grid-cols-3 gap-10">
-          <!-- card starts here-->
-          <div class="card hover:shadow-lg bg-gray-800">
-            <img
-              src="~/assets/forum.jpg"
-              class="w-full object-cover h-32 sm:h-48"
-              alt="stew"
-            />
-            <div class="font-body text-white ml-4 mt-4 tracking-wider">
-              <h5 class="text-green-500">Real Time Single Page Forum</h5>
-              <h4 class="text-yellow-400">(Front-End)</h4>
-              <p>It's a vue js based forum where questions can be asked.</p>
-            </div>
-            <div class="p-4">
-              <p class="btn bg-gray-500 text-center">
-                <a
-                  href="https://github.com/meherab-hossain/real-time-spa-forum-frontend"
-                  target="_blank"
-                  >Github Link</a
-                >
-              </p>
-            </div>
-          </div>
-          <!-- card ends here-->
-
-          <div class="card hover:shadow-lg bg-gray-800">
-            <img
-              src="~/assets/forum.jpg"
-              class="w-full object-cover h-32 sm:h-48"
-              alt="stew"
-            />
-            <div class="font-body text-white ml-4 mt-4 tracking-wider">
-              <h5 class="text-green-500">Real Time Single Page Forum</h5>
-              <h4 class="text-yellow-400">(Back-End)</h4>
-              <p>It's a vue js based forum where questions can be asked.</p>
-            </div>
-            <div class="p-4">
-              <p class="btn bg-gray-500 text-center">
-                <a
-                  href="https://github.com/meherab-hossain/real-time-spa-forum"
-                  target="_blank"
-                  >Github Link</a
-                >
-              </p>
+        <div class="flex flex-wrap">
+          <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div class="shadow-lg rounded-lg overflow-hidden">
+              <img
+                class="lg:h-72 md:h-48 w-full object-cover object-center"
+                src="~/assets/forum.jpg"
+                alt="blog"
+              />
+              <div
+                class="p-6 font-body tracking-wider hover:bg-indigo-700 hover:text-white transition duration-300 ease-in"
+              >
+                <h2 class="text-base font-medium text-indigo-300 mb-1">
+                  Real Time Single Page Forum.
+                </h2>
+                <h1 class="text-2xl text-yellow-400 font-semibold mb-3">
+                  (Front-End)
+                </h1>
+                <p class="leading-relaxed mb-3 font-bold text-white">
+                  It's a vue js based forum where questions can be asked.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    href="https://github.com/meherab-hossain/real-time-spa-forum-frontend"
+                    target="_blank"
+                    class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Github Link
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- card ends here-->
-
-          <div class="card hover:shadow-lg bg-gray-800">
-            <img
-              src="~/assets/forum.jpg"
-              class="w-full object-cover h-32 sm:h-48"
-              alt="stew"
-            />
+          <div class="p-4 sm:w-1/2 lg:w-1/3">
             <div
-              class="font-body text-white ml-4 mt-4 tracking-wider"
+              class="h-full hover:shadow-lg shadow-lg rounded-lg overflow-hidden"
             >
-              <h5 class="text-green-500">React E-Bazar</h5>
-              <h4 class="text-yellow-400">(Front-End)</h4>
-              <p>It's a React js based e-bazar where anyone can do shopping</p>
-            </div>
-            <div class="p-4">
-              <p class="btn bg-gray-500 text-center">
-                <a
-                  href="https://github.com/meherab-hossain/react-e-bazar"
-                  target="_blank"
-                  >Github Link</a
-                >
-              </p>
+              <img
+                class="lg:h-72 md:h-48 w-full object-cover object-center"
+                src="~/assets/forum.jpg"
+                alt="forum"
+              />
+              <div
+                class="p-6 font-body tracking-wider hover:bg-indigo-700 hover:text-white transition duration-300 ease-in"
+              >
+                <h2 class="text-base font-medium text-indigo-300 mb-1">
+                  Real Time Single Page Forum
+                </h2>
+                <h1 class="text-2xl text-yellow-400 font-semibold mb-3">
+                  (Back-End)
+                </h1>
+                <p class="leading-relaxed mb-3 font-bold text-white">
+                  It's a vue js based forum where questions can be asked.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    href="https://github.com/meherab-hossain/real-time-spa-forum"
+                    target="_blank"
+                    class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Github Link
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- card ends here-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div
+              class="h-full hover:shadow-lg shadow-lg rounded-lg overflow-hidden"
+            >
+              <img
+                class="lg:h-72 md:h-48 w-full object-cover object-center"
+                src="~/assets/forum.jpg"
+                alt="forum"
+              />
+              <div
+                class="p-6 font-body tracking-wider hover:bg-indigo-700 hover:text-white transition duration-300 ease-in"
+              >
+                <h2 class="text-base font-medium text-indigo-300 mb-1">
+                  React E-Bazar
+                </h2>
+                <h1 class="text-2xl text-yellow-400 font-semibold mb-3">
+                  (Back-End)
+                </h1>
+                <p class="leading-relaxed mb-3 font-bold text-white">
+                  It's a React js based e-bazar where anyone can do shopping
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    href="https://github.com/meherab-hossain/react-e-bazar"
+                    target="_blank"
+                    class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Github Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section id="all-projects">
