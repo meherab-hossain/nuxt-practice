@@ -1,24 +1,7 @@
 <template>
   <div class="bg-gray-800 font-body">
     <div>
-      <div class="flex justify-between shadow-md p-4 bg-gray-900">
-        <div class="flex justify-evenly">
-          <ul>
-            <li class="inline-flex ml-4 text-white"><a>Home</a></li>
-            <li class="inline-flex menu-bar">
-              <a href="#projects">Project</a>
-            </li>
-            <li class="inline-flex menu-bar"><router-link to="/about">About Me</router-link></li>
-            <li class="inline-flex menu-bar"><a>Contact</a></li>
-            <li class="inline-flex menu-bar"><a>Resume</a></li>
-          </ul>
-        </div>
-        <div class="flex justify-evenly">
-          <div class="menu-bar">Linkdin</div>
-          <div class="menu-bar">github</div>
-          <div class="menu-bar mr-4">facebook</div>
-        </div>
-      </div>
+      <Navbar></Navbar>
       <div class="md:flex ml-4">
         <p class="text-xl text-white mt-20">
           Hi There,<br />
@@ -36,13 +19,9 @@
               >Hire Me</a
             ></Span
           >
-          <Span class="btn bg-gray-600 text-white"
-            ><a
-              href="https://www.facebook.com/meherab.hossain.79/"
-              target="_blank"
-              >More About Me</a
-            ></Span
-          >
+          <Span class="btn bg-gray-600 text-white">
+            <router-link to="/about">More About Me</router-link>
+          </Span>
         </p>
         <div class="mt-14">
           <img
@@ -161,7 +140,12 @@
 </template>
 
 <script>
-export default {};
+import Navbar from "~/components/includes/Navbar.vue";
+export default {
+  components: {
+    Navbar,
+  },
+};
 </script>
 
 <style>
